@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "allay_spawn_egg"
+			},
+		"title": {
+			"text": "Choose an Origin!"
+			},
+		"description": {
+			"text": "You aren't locked into one permanently!"
+			},
+		"show_toast":false,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+		"parent":"wborigins:root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}
