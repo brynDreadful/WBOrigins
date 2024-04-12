@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_pickaxe"
+			},
+		"title": {
+			"text": "Vanilla Mob Origins"
+			},
+		"description": {
+			"text": "Plain and simple."
+			},
+		"show_toast":false,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+		"parent":"wborigins:origin/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}

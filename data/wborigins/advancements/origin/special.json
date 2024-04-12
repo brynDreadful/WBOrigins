@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "iron_horse_armor"
+			},
+		"title": {
+			"text": "Special Origins"
+			},
+		"description": {
+			"text": "A little more out-of-this-world."
+			},
+		"show_toast":false,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+		"parent":"wborigins:origin/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}

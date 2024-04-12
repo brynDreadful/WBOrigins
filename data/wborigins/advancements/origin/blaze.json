@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "blaze_powder"
+			},
+		"title": {
+			"text": "Blaze"
+			},
+		"description": {
+			"text": "Born of the Nether, hurt by water but immune to flames. +Strength, -Health."
+			},
+		"show_toast":true,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+	"parent":"wborigins:origin/vanilla",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "wborigins:origin/blaze"
+	}
+}

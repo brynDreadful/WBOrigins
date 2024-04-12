@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "name_tag"
+			},
+		"title": {
+			"text": "Tags"
+			},
+		"description": {
+			"text": "Like a whole second origin!"
+			},
+		"show_toast":false,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+		"parent":"wborigins:origin/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}
