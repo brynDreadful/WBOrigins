@@ -1,0 +1,50 @@
+{
+  "parent": "wborigins:power/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "light": {
+                      "light": {
+                        "min": 12,
+                        "max": 15
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "wborigins.power.sun_helps": 1
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "dimension": "minecraft:overworld"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wborigins:power/sun_helps"
+  }
+}

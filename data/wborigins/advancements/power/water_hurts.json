@@ -1,0 +1,45 @@
+{
+"parent":"wborigins:power/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "effects": {
+                      "minecraft:water_breathing": {}
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "effects": {
+                      "minecraft:conduit_power": {}
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "block": "minecraft:water"
+      }
+    }
+  },
+  "rewards": {
+    "function": "wborigins:power/water_hurts"
+  }
+}
