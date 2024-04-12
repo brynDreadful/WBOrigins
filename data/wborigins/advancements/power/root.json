@@ -1,0 +1,9 @@
+{
+	"parent":"wborigins:root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}
