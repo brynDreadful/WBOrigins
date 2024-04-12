@@ -1,6 +1,7 @@
 # Sends everything to eeby deeby
 # Will not reset attributes or continual effects. However you can just kill those people and it'll reset
 
+advancement revoke @a from wborigins:root
 scoreboard objectives remove wborigins.origin 
 scoreboard objectives remove wborigins.class 
 scoreboard objectives remove wborigins.tag 
