@@ -6,4 +6,5 @@ execute as @a[scores={wborigins.choose_origin=1}] at @s run function wborigins:o
 execute as @a[scores={wborigins.choose_origin=2}] at @s run advancement grant @s only wborigins:origin/blaze
 execute as @a[scores={wborigins.choose_origin=3}] at @s run advancement grant @s only wborigins:origin/cat
 execute as @a[scores={wborigins.choose_origin=4}] at @s run advancement grant @s only wborigins:origin/cow
+execute as @a[scores={wborigins.choose_origin=5}] at @s run advancement grant @s only wborigins:origin/dwarf
 execute as @a[scores={wborigins.choose_origin=100}] at @s run advancement grant @s only wborigins:origin/human
