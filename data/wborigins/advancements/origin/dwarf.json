@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_pickaxe"
+			},
+		"title": {
+			"text": "Dwarf"
+			},
+		"description": {
+			"text": "Diggy Diggy Hole. Better fortune on raw gold, darkvision, a bit more health but a bit less speed."
+			},
+		"show_toast":true,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+	"parent":"wborigins:origin/vanilla",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "wborigins:origin/dwarf"
+	}
+}
