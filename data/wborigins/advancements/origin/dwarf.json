@@ -7,7 +7,7 @@
 			"text": "Dwarf"
 			},
 		"description": {
-			"text": "Diggy Diggy Hole. Better fortune on raw gold, darkvision, a bit more health but a bit less speed."
+			"text": "Diggy Diggy Hole. Better fortune on raw gold, darkvision."
 			},
 		"show_toast":true,
 		"announce_to_chat":false,
