@@ -3,4 +3,5 @@
 
 scoreboard players set @s wborigins.choose_origin 0
 function wborigins:ori_reset
-tellraw @s "You are now a Human."
+tellraw @s "You are now a Cat."
+function wborigins:death_check/cat

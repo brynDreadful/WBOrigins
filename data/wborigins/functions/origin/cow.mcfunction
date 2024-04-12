@@ -3,4 +3,6 @@
 
 scoreboard players set @s wborigins.choose_origin 0
 function wborigins:ori_reset
-tellraw @s "You are now a Human."
+tellraw @s "You are now a Cow."
+scoreboard players set @s wborigins.origin 4
+scoreboard players set @s wborigins.power.milkable 1
