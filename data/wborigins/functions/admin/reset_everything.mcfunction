@@ -1,4 +1,5 @@
 # Sends everything to eeby deeby
+# Will not reset attributes or continual effects. However you can just kill those people and it'll reset
 
 scoreboard objectives remove wborigins.origin 
 scoreboard objectives remove wborigins.class 
