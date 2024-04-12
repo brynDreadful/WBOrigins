@@ -2,5 +2,5 @@
 # A bit hacky but it works
 
 scoreboard players set @s wborigins.choose_origin 0
-function wborigins:ori_reset
+function wborigins:reset
 tellraw @s "You are now a Human."
