@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "shulker_spawn_egg"
+			},
+		"title": {
+			"text": "Wyn & Bryn's Origins"
+			},
+		"background": "minecraft:textures/block/purple_concrete_powder.png",
+		"description": {
+			"text": "You're running Wyn & Bryn's Origins v0.1!"
+			},
+		"show_toast":false,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions":{}
+		}
+	}
+}
