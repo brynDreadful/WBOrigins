@@ -15,6 +15,10 @@ execute if score @s wborigins.power.saturation matches 1 run effect give @s satu
 
 execute if score @s wborigins.power.water_breathing matches 1 run effect give @s water_breathing infinite 0 true
 
+# Checks if you should have strength
+
+execute if score @s wborigins.power.strength matches 1 run effect give @s strength infinite 1 true
+
 # Checks if you should have haste
 
 execute if score @s wborigins.power.haste matches 1 run effect give @s haste infinite 1 true
@@ -22,6 +26,10 @@ execute if score @s wborigins.power.haste matches 1 run effect give @s haste inf
 # Checks if you should have jump boost
 
 execute if score @s wborigins.power.jump_boost matches 1 run effect give @s jump_boost infinite 1 true
+
+# Checks if you should have speed
+
+execute if score @s wborigins.power.speed matches 1 run effect give @s speed infinite 1 true
 
 # Checks if you should have HOTV
 
