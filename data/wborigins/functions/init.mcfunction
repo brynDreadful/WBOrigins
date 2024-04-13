@@ -15,6 +15,7 @@ scoreboard objectives add wborigins.power.hotv dummy
 scoreboard objectives add wborigins.power.jump_boost dummy
 scoreboard objectives add wborigins.power.speed dummy
 scoreboard objectives add wborigins.power.strength dummy
+scoreboard objectives add wborigins.power.resistance dummy
 scoreboard objectives add wborigins.power.poison_immune dummy
 scoreboard objectives add wborigins.power.omen_immune dummy
 scoreboard objectives add wborigins.power.darkness_immune dummy

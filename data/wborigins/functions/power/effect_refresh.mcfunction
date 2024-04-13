@@ -15,6 +15,10 @@ execute if score @s wborigins.power.saturation matches 1 run effect give @s satu
 
 execute if score @s wborigins.power.water_breathing matches 1 run effect give @s water_breathing infinite 0 true
 
+# Checks if you should have resistance
+
+execute if score @s wborigins.power.resistance matches 1 run effect give @s resistance infinite 0 true
+
 # Checks if you should have strength
 
 execute if score @s wborigins.power.strength matches 1 run effect give @s strength infinite 1 true

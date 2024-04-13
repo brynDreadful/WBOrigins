@@ -16,6 +16,7 @@ scoreboard objectives remove wborigins.power.haste
 scoreboard objectives remove wborigins.power.hotv 
 scoreboard objectives remove wborigins.power.jump_boost 
 scoreboard objectives remove wborigins.power.speed
+scoreboard objectives remove wborigins.power.resistance
 scoreboard objectives remove wborigins.power.strength 
 scoreboard objectives remove wborigins.power.poison_immune 
 scoreboard objectives remove wborigins.power.omen_immune 

@@ -14,3 +14,4 @@ Current origins available:
 -- Zombie
 -- Player
 -- Fae Blooded
+-- Robot

@@ -33,6 +33,7 @@ scoreboard players set @s wborigins.power.hotv 0
 scoreboard players set @s wborigins.power.jump_boost 0
 scoreboard players set @s wborigins.power.speed 0
 scoreboard players set @s wborigins.power.strength 0
+scoreboard players set @s wborigins.power.resistance 0
 scoreboard players set @s wborigins.power.poison_immune 0
 scoreboard players set @s wborigins.power.omen_immune 0
 scoreboard players set @s wborigins.power.darkness_immune 0
