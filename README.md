@@ -16,3 +16,5 @@ Current origins available:
 -- Fae Blooded
 -- Robot
 -- Dryad
+-- Warden Blooded
+-- Sculk Angel
