@@ -4,4 +4,6 @@
 scoreboard players set @s wborigins.choose_origin 0
 function wborigins:reset
 tellraw @s "You are now a Cat."
-function wborigins:death_check/cat
+team join wborigins.weirdo
+scoreboard players set @s wborigins.origin 3
+function wborigins:origin/attri_hub

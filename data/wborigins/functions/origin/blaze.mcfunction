@@ -8,4 +8,4 @@ scoreboard players set @s wborigins.origin 1
 scoreboard players set @s wborigins.power.fire_res 1
 scoreboard players set @s wborigins.power.water_hurts 1
 scoreboard players set @s wborigins.power.strength 1
-function wborigins:death_check/blaze
+function wborigins:origin/attri_hub

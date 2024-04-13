@@ -1,6 +1,6 @@
-# Checks for deaths and routes to death_check
+# Checks for deaths and routes to attri_hub
 
-execute as @a[scores={wborigins.on_respawn=1}] run function wborigins:death_check/death_check_hub
+execute as @a[scores={wborigins.on_respawn=1}] run function wborigins:origin/attri_hub
 
 # Flags all undead as undead-team, all creeps as weirdos, and all wardens as sculk
 

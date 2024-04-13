@@ -4,4 +4,4 @@ tellraw @s "You are now a Dryad."
 scoreboard players set @s wborigins.origin 11
 scoreboard players set @s wborigins.power.sun_helps 1
 scoreboard players set @s wborigins.power.poison_immune 1
-function wborigins:death_check/dryad
+function wborigins:origin/attri_hub

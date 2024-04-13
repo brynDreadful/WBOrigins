@@ -5,4 +5,4 @@ scoreboard players set @s wborigins.origin 7
 scoreboard players set @s wborigins.power.water_breathing 1
 scoreboard players set @s wborigins.power.night_vision 1
 team join wborigins.undead
-function wborigins:death_check/zombie
+function wborigins:origin/attri_hub
