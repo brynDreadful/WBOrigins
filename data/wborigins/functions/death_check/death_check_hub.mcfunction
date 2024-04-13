@@ -5,5 +5,6 @@ execute as @s if score @s wborigins.origin matches 3 run function wborigins:deat
 execute as @s if score @s wborigins.origin matches 4 run function wborigins:death_check/cow
 execute as @s if score @s wborigins.origin matches 5 run function wborigins:death_check/dwarf
 execute as @s if score @s wborigins.origin matches 6 run function wborigins:death_check/dragon
+execute as @s if score @s wborigins.origin matches 11 run function wborigins:death_check/dragon
 advancement revoke @s only wborigins:death_check
 scoreboard players set @s wborigins.on_respawn 0

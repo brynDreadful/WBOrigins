@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "oak_sapling"
+			},
+		"title": {
+			"text": "Dryad"
+			},
+		"description": {
+			"text": "I am the Dryad, I speak for the trees."
+			},
+		"show_toast":true,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+	"parent":"wborigins:origin/vanilla",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "wborigins:origin/dryad"
+	}
+}
