@@ -28,13 +28,11 @@ scoreboard objectives add wborigins.power.looting.raw_gold dummy
 scoreboard objectives add wborigins.power.looting.sculk_silk dummy
 scoreboard objectives add wborigins.loot.alchemist dummy
 scoreboard objectives add wborigins.loot.visionary dummy
-scoreboard objectives add wborigins.hotbar_slot dummy
 scoreboard players set @a wborigins.on_respawn 0
 scoreboard players enable @a wborigins.choose_origin
 scoreboard players enable @a wborigins.choose_class
 schedule function wborigins:listener 1s
 team add wborigins.undead
-team add wborigins.spider
 team add wborigins.weirdo
 team add wborigins.sculk
 tellraw @a "You are now running Wyn & Bryn's Origins v0.1."

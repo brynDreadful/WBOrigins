@@ -5,8 +5,8 @@ advancement revoke @a from wborigins:root
 scoreboard objectives remove wborigins.origin 
 scoreboard objectives remove wborigins.class 
 scoreboard objectives remove wborigins.tag 
-scoreboard objectives remove wborigins.choose_origin trigger
-scoreboard objectives remove wborigins.choose_class trigger
+scoreboard objectives remove wborigins.choose_origin
+scoreboard objectives remove wborigins.choose_class
 scoreboard objectives remove wborigins.on_respawn deathCount
 scoreboard objectives remove wborigins.power.fire_res 
 scoreboard objectives remove wborigins.power.water_breathing 
@@ -30,9 +30,7 @@ scoreboard objectives remove wborigins.power.looting.raw_gold
 scoreboard objectives remove wborigins.power.looting.sculk_silk 
 scoreboard objectives remove wborigins.loot.alchemist 
 scoreboard objectives remove wborigins.loot.visionary 
-scoreboard objectives remove wborigins.hotbar_slot 
 team remove wborigins.undead
-team remove wborigins.spider
 team remove wborigins.weirdo
 team remove wborigins.sculk
 
