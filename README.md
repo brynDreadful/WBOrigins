@@ -17,4 +17,4 @@ Current origins available:
 -- Robot
 -- Dryad
 -- Warden Blooded
--- Sculk Angel
+-- Angel

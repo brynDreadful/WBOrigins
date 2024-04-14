@@ -1,13 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "echo_shard"
+			"item": "nether_star"
 			},
 		"title": {
-			"text": "Sculk Angel"
+			"text": "Angel"
 			},
 		"description": {
-			"text": "Born of the Sculk and the heavens."
+			"text": "BE NOT AFRAID"
 			},
 		"show_toast":true,
 		"announce_to_chat":false,
@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "wborigins:origin/sculk_angel"
+		"function": "wborigins:origin/angel"
 	}
 }
