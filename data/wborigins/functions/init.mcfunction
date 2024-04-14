@@ -26,6 +26,7 @@ scoreboard objectives add wborigins.power.no_sleep dummy
 scoreboard objectives add wborigins.power.explodable dummy
 scoreboard objectives add wborigins.power.milkable dummy
 scoreboard objectives add wborigins.power.shearable dummy
+scoreboard objectives add wborigins.power.shearable_sapling dummy
 scoreboard objectives add wborigins.power.better_crafting.packed_mud dummy
 scoreboard objectives add wborigins.power.looting.raw_gold dummy
 scoreboard objectives add wborigins.power.looting.sculk_silk dummy

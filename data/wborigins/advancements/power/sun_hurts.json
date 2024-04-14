@@ -1,0 +1,64 @@
+{
+"parent":"wborigins:power/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lantern",
+                          "minecraft:campfire",
+                          "minecraft:fire",
+                          "minecraft:sea_pickle",
+                          "minecraft:lava",
+                          "minecraft:lava_cauldron"
+                        ]
+                      }
+                    },
+                    "effects": {
+                      "minecraft:fire_resistance": {}
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "dimension": "minecraft:overworld",
+                    "light": {
+                      "light": 15
+                    }
+                  },
+                  "flags": {
+                    "is_swimming": false
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:weather_check",
+                "raining": false,
+                "thundering": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wborigins:power/sun_hurts"
+  }
+}

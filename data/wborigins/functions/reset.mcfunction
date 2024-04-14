@@ -45,6 +45,7 @@ scoreboard players set @s wborigins.power.no_sleep 0
 scoreboard players set @s wborigins.power.explodable 0
 scoreboard players set @s wborigins.power.milkable 0
 scoreboard players set @s wborigins.power.shearable 0
+scoreboard players set @s wborigins.power.shearable_sapling 0
 scoreboard players set @s wborigins.power.better_crafting.packed_mud 0
 scoreboard players set @s wborigins.power.looting.raw_gold 0
 scoreboard players set @s wborigins.power.looting.sculk_silk 0

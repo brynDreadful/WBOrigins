@@ -1,0 +1,43 @@
+{
+  "parent": "wborigins:power/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "wborigins.power.shearable_sapling": 1
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_sneaking": true
+                  },
+                  "equipment": {
+                    "offhand": {
+                      "items": [
+                        "minecraft:shears"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wborigins:power/sheared_sapling"
+  }
+}
