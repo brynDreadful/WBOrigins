@@ -6,15 +6,25 @@ So we wrote this from scratch.
 Current origins available:
 
 -- Blaze
+
 -- Cat
+
 -- Cow
+
 -- Dwarf
+
 -- Dragon
+
 -- Skeleton
+
 -- Zombie
+
 -- Player
+
 -- Fae Blooded
+
 -- Robot
+
 -- Dryad
 -- Warden Blooded
 -- Angel
