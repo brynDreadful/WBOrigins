@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "white_wool"
+			},
+		"title": {
+			"text": "Sheep"
+			},
+		"description": {
+			"text": "Baa. You can sneak with shears in your offhand to shear yourself."
+			},
+		"show_toast":true,
+		"announce_to_chat":false,
+		"frame": "task",
+		"hidden":false
+		},
+	"parent":"wborigins:origin/vanilla",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "wborigins:origin/sheep"
+	}
+}
